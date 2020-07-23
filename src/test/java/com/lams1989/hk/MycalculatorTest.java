@@ -10,6 +10,8 @@ public class MycalculatorTest extends TestCase {
 		int value = 6;
 
 		assertEquals(12, ap.divisor_sum(value));
+		
+		assertEquals(18, ap.divisor_sum(10));
 	}
 	
 }
